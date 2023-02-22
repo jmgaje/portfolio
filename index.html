@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/c179aa9b83.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/jm_logo.png" type="image/x-icon">
+    <title>MyPorfolio</title>
+</head>
+<body>
+    
+    <!-- Nav -->
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars" ></i>
+                </label>
+                <a href="index.html" > <img src="img/jm_logo.png" class="logo" alt="logo"></a>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+             </nav>
+    <!-- end Nav -->
+             
+    <!-- home -->
+    <section id="home">
+        <div class="main-home-container">
+            <div class="left-home-content">
+                <h1>I'm <span class="auto-typed">John Michael Gaje</span></h1>
+                <p class="text-showcase">Aspiring Software Engineer </p> 
+                <p class="text-showcase1">Designing and coding the web, pixel by pixel.</p>
+                <button class="btn btn-download-cv" type="submit" onclick="window.open('./CV/Gaje_John_Michael_CV.pdf')">Download CV</button>
+                <div class="home-logo">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		<defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:rgba(243, 170, 13, 0.06)"></stop>
+				<stop offset="50%" style="stop-color:rgba(220, 225, 241, 0.06)"></stop>
+				<stop offset="100%" style="stop-color:rgba(243, 170, 13, 0.06)"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		</defs>
+		<g>
+			<use xlink:href='#wave' opacity=".3">
+				<animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="10s"
+                    calcMode="spline"
+                    values="270 230; -334 180; 270 230"
+                    keyTimes="0; .5; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacity=".6">
+				<animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="8s"
+                    calcMode="spline"
+                    values="-270 230;243 220;-270 230"
+                    keyTimes="0; .6; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacty=".9">
+				<animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="6s"
+                    calcMode="spline"
+                    values="0 230;-140 200;0 230"
+                    keyTimes="0; .4; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+			</use>
+		</g>
+	</svg>
+        </div>
+
+        
+    </section>
+   <!-- end home -->
+   <!-- about -->
+    <section id="about">
+        <h1 class="about-title">ABOUT</h1>
+        <div class="main-about-container">
+            
+            
+                <div class="hidden-left left-about-content">
+                        <h2 class="profile-left-title">About me</h2>
+                        <p class="profile-left-text">Hi! I'm <b>John Michael</b> an aspiring software engineer based in Cavite, Philippines. I'm passionate in crafting web applications that are scalable and efficient while providing engaging and pixel-perfect user experiences.I want to pursue my career in the field of  Information Technology and secure a responsible career opportunity to fully utilize my knowledge and skills in web development while making a significant contribution to the success of the <br>company.</p>
+                        <div class="left-profile-logo">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <h3>Technology Stack</h3>
+                        <div class="profile-left-icons">
+                            
+                            <div>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p class="hide">CSS</p> 
+                            </div>
+                            <div>
+                             <i class="fa-brands fa-html5"></i>
+                             <p class="hide">HTML</p>
+                            </div>
+
+                             <i class="fa-brands fa-figma"></i>
+                             <i class="fa-brands fa-bootstrap"></i>
+                             <i class="fa-brands fa-square-js"></i>
+                             <i class="fa-brands fa-php"></i>
+                             <i class="fa-brands fa-react"></i> <br>
+                             <div>
+                             <i class="fa-sharp fa-solid fa-database"></i>
+                             <p class="hide">MY SQL</p>
+                             </div>
+                             <div>
+                             <i class="fa-solid fa-code"></i>
+                             <p class="hide">OOP</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="hidden-right right-about-content">
+                    
+                    <div class="right-profile">
+                             <div class="right-profile-picture">
+                                <img src="./img/profilee.png" alt="profile-img">
+                             </div>
+                    </div>
+                </div>
+        </div> 
+    </section>
+    <!-- end about -->
+
+    <section id="projects">
+        <div class="main-projects-container">
+            <h1 class="projects-title">PROJECTS</h1>
+            <p class ="projects-subtitle">Small but mighty: a mini project with maximum impact.</p>
+            <!-- <div class="card">
+                <img src="./img/student_management.PNG" alt="student_management">
+            </div> -->
+            <div class="projects_card_container">
+
+                <figure class="card picture1">
+                    <img src="./img/student_management.PNG" alt="student_management"/>
+                    <figcaption>
+                    <h3>Student<br/>Management System</h3>
+                    <h4>Simple web based student management system</h4>
+                    <p>html css mysql php javascript</p>
+                    <button class="btn btn-download-cv">Click to view</button>
+                    </figcaption>
+                </figure>
+
+                <figure class="card picture2">
+                    <img src="./img/responsive portfolio.JPG" alt="student_management"/>
+                    <figcaption>
+                    <h3>Responsivee Portfolio website</h3>
+                    <p>html css</p>
+                    <button class="btn btn-download-cv">Click to view</button>
+                    </figcaption>
+                </figure>
+
+                <figure class="card picture3">
+                    <img src="./img/student_management.PNG" alt="student_management"/>
+                    <figcaption>
+                        <h3>Login System</h3>
+                        <p>html css mysql php javascript</p>
+                    <button class="btn btn-download-cv">Click to view</button>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        
+    </section>
+        <!-- contact -->
+                <section id="contact">
+                    <div class="main-contact-container">
+                        <h1 class ="contact-title">Let's Work Together!</h1>
+                        <p>Ready to take the next step? Let's get in touch!</p>
+
+                        <div class="contact-left">
+                                <!-- <h2 class="contact-title-left">Contact me</h2> -->
+
+                                <div class="contact-icon-left">
+                                        <a class="fa-solid fa-address-book" href=""><span>09264081834 </span></a>
+                                        <a class="fa-solid fa-envelope" href=""><span>jmgaje91@gmail.com</span></a>
+                                        <a class="fa-sharp fa-solid fa-location-dot" href=""><span>Bacoor, Cavite Philippines</span> </a>
+                                </div>
+                        </div>
+
+                        <div class="contact-right">
+                            <h2 class="contact-title-left">Socials</h2>
+                            <div class="contact-icon-right">
+    
+                            <a class="fa-brands fa-facebook-messenger" onclick="window.open('https://www.messenger.com/t/100001616443035')"></a>
+                            <a class="fa-brands fa-facebook"  onclick="window.open('https://www.facebook.com/jm1091212/')"></a>
+                            <a class="fa-brands fa-twitter"  onclick="window.open('https://www.twitter.com')" ></a>
+                            <a class="fa-brands fa-instagram"  onclick="window.open('https://www.instagram.com/oheeeemm/')"></a>
+                            <a class="fa-brands fa-google"  onclick="window.open('https://www.gmail.com')"></a>
+                            <a class="fa-brands fa-github"  onclick="window.open('https://github.com/jmgaje')"></a>
+                            </div>
+                        
+                        </div>
+                        </div>
+
+                    </div>
+                </section>
+
+        <!-- end contact -->
+
+
+        <!-- footer -->
+
+        <footer id="footer">
+            <div class="main-footer-container">
+                
+                <!-- <div class="footer-logo">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div> -->
+                <div class="footer-bottom">
+                    <p>copyright &copy;2023. Designed by <span>John Michael M. Gaje</span></p>
+                </div>
+                
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-typed",{
+        strings: ["John Michael Gaje", "Web Developer", "Front End Developer"],
+        typeSpeed: 110,
+        backSpeed: 110,
+        loop: true 
+    })
+    </script>
+    
+</body>
+</html>
