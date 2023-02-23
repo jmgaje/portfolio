@@ -491,13 +491,31 @@ svg {
      transform: scale(2);
      cursor: pointer;
  }
- 
+
  #about .fa-react:hover + .hide{
     display: block;
     color: teal;
     text-align: center; 
 }
-------
+-------
+
+#about .fa-database{
+    transition: ease 0.2s ;
+}
+
+#about .fa-database:hover{
+    color: black;
+    transform: scale(2);
+    cursor: pointer;
+}
+
+#about .fa-database:hover + .hide{
+   display: block;
+   color: black;
+   text-align: center; 
+}
+
+--------
  
  /* transition content */
  #about .hidden-left{
@@ -905,6 +923,15 @@ svg {
         display: flex;
         flex-direction: column;
     }
+
+    #projects .card{
+        
+        max-width: 300px;
+        min-width: 360px;
+        max-height: 300px;
+        min-height: 300px;
+       
+    }
     /* end of projects */
 
     /* contacts */
@@ -923,12 +950,10 @@ svg {
         font-weight: 2rem;
     }
     #contact .main-contact-container .contact-left .contact-icon-left a{
-        background-color:var(--hoverColor);
-        border-radius: 1rem;
-        text-align: center;
-        padding: 20px 30px;
+
+        padding: 20px 50px;
         margin: 1.5%;
-        font-size: 25px;
+        font-size: 1rem;
         font-weight: 2rem;
         color: var(--mainColor);
         text-transform: capitalize;
@@ -939,9 +964,9 @@ svg {
     /* end contacts */
 
     /* footer */
-    #footer{
-        height: fit-content;
-        overflow: hidden;
+    #footer .main-footer-container .footer-bottom p{
+        font-size: .9rem;
+        font-weight: 2rem;
     }
      /* end footer */
 }
