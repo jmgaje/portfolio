@@ -763,6 +763,7 @@ svg {
   
     font-size: 2rem;
     font-weight: 2rem;
+    margin-bottom: 1rem;
 }
 #contact .main-contact-container .contact-right .contact-icon-right a{
   
@@ -958,8 +959,6 @@ svg {
         color: var(--mainColor);
         text-transform: capitalize;
     }
-    
-  
 
     /* end contacts */
 
