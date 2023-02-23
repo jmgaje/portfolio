@@ -408,8 +408,7 @@ svg {
  #about .fa-html5:hover + .hide{
      display: block;
      color: rgba(206, 63, 10, 0.925);
-     text-align: center;
-    
+     text-align: center; 
  }
  -----
  #about .fa-figma{
@@ -421,7 +420,14 @@ svg {
      transform: scale(2);
      cursor: pointer;
  }
- 
+
+ #about .fa-figma:hover + .hide{
+    display: block;
+    color: rgb(255, 0, 76);
+    text-align: center; 
+}
+------------
+
  #about .fa-bootstrap{
      transition: ease 0.2s ;
      
@@ -432,6 +438,13 @@ svg {
      cursor: pointer;
      
  }
+
+ #about .fa-bootstrap:hover + .hide{
+    display: block;
+    color: purple;
+    text-align: center; 
+}
+----------
  
  #about .fa-square-js{
      transition: ease 0.2s ;
@@ -444,6 +457,13 @@ svg {
      cursor: pointer;
  
  }
+
+ #about .fa-square-js:hover + .hide{
+    display: block;
+    color: yellow;
+    text-align: center; 
+}
+------
  
  #about .fa-php{
      transition: ease 0.2s ;
@@ -456,16 +476,28 @@ svg {
      cursor: pointer;
  }
  
+ #about .fa-php:hover + .hide{
+    display: block;
+    color: blue;
+    text-align: center; 
+}
+------
  #about .fa-react{
      transition: ease 0.2s ;
  }
- 
+
  #about .fa-react:hover{
-     color: teal ;
+     color: teal;
      transform: scale(2);
      cursor: pointer;
  }
  
+ #about .fa-react:hover + .hide{
+    display: block;
+    color: teal;
+    text-align: center; 
+}
+------
  
  /* transition content */
  #about .hidden-left{
