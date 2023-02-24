@@ -223,22 +223,19 @@ a.active,a:hover{
 
 #home .main-home-container{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 90% 10%;
-    grid-template-areas: "left-home-content right-home-content" ;
-    margin-top: 16.5rem;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left-home-content";
+    
 }
 
 #home .left-home-content{
     grid-area: left-home-content;
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-top: 15%;
     z-index: 10;
 }
 
-#home .right-home-content{
-    grid-area: right-home-content;
-    
-}
 
 #home .left-home-content .text-showcase{
     font-size: 1.8rem;
@@ -255,12 +252,6 @@ a.active,a:hover{
     
 }
 
-#home .right-home-content img{
-    margin-left: 8rem;
-    padding-top: 5rem;
-    width: 100%;
-    
-}
 #home .left-home-content h1{
     font-size: 3.4rem;
     font-weight: 2rem;
@@ -589,10 +580,11 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #projects .card{
-    overflow: hidden;
+    border: var(--darkTwo) solid .2rem;
     background-color: #000;
     color: #fff;
     display: inline-block;
@@ -606,7 +598,7 @@ svg {
     text-align: center;
     width: 100%;
     height: 100%;
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
 #projects .card *{
@@ -663,6 +655,7 @@ svg {
     text-transform: uppercase;
     max-height: 100%;
     cursor: pointer;
+    padding: 1%
   }
 
   #projects .card:hover::before,
@@ -692,6 +685,7 @@ svg {
     font-size: 15px;
     font-weight: bolder;
     color: var(--lightThree);
+    
 }
 /* end projects */
 
@@ -818,30 +812,23 @@ svg {
 @media only screen and (max-width: 952px){
 
     /* home */
-    #home .main-home-container{
-        margin-top: 15rem;
-        overflow: hidden;
-
+    #home {
+        margin-top: 27%;
     }
-
     #home .left-home-content{
-        grid-area: left-home-content;
-        margin-left: 5rem;
-        z-index: 10;
+        margin-left: 10%;
     }
     #home .left-home-content .text-showcase{
-        font-size: .98rem;
+        font-size: 1.2rem;
         font-weight: bolder;
-        margin-bottom: 0%;
         
     }
 
     #home .left-home-content .text-showcase1{
-        font-size: .85rem;
+        font-size: .95rem;
         font-weight: 3rem;
         margin-top: 0%;
         margin-bottom: 1%;
-        
     }
 
     #home .left-home-content h1{
