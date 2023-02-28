@@ -347,9 +347,19 @@ svg {
 
 #about .profile-left-icons{
     grid-area: left-about-content;
-    display: flex;
-    justify-content: space-evenly;
+   display: flex;
+    
 }
+
+#about .profile-left-icons .profile-left-icons-1{
+   display: flex;
+  
+  
+}
+#about .profile-left-icons .profile-left-icons-2{
+    display: flex;
+   
+ }
 
 #about .profile-left-icons h3{
     margin-top: 2rem;
@@ -858,9 +868,30 @@ svg {
     
 
     #about .left-about-content{
+       
         grid-area: left-content;
+        
     }
-  
+
+    #about .profile-left-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about .profile-left-icons .profile-left-icons-1{
+        display: flex;
+        margin: 2%;
+      
+       
+     }
+     #about .profile-left-icons .profile-left-icons-2{
+         display: flex;
+        
+      }
+     
+   
 
     #about .right-about-content{
         grid-area: right-content;
