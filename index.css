@@ -318,6 +318,7 @@ svg {
 
 #about .main-about-container .left-about-content{
    padding: 4%;
+   padding-left: 8%;
     grid-area: left-content;
     overflow: hidden;
 
